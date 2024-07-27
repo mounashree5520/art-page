@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: #090909;
+    color: rgb(242, 236, 236);
+    font-size: 30px;
+    text-align: center;
+    border-top: white;
+  }
+  
+  
+  footer{
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: rgb(242, 236, 236);
+    
+    font-size: 30px;
+    text-align: center;
+
+  }
+ 
+  
+  .image-row {
+    display: flex; 
+    justify-content: space-between; 
+    gap:100%; 
+    
+}
+
+
+.image-row img {
+    max-width: 100%;
+    height: auto;
+    row-gap: 100px;
+}
